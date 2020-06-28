@@ -13,3 +13,5 @@ I used public&private subnets pattern. Private subnets for worker nodes, public 
 I needed NAT gateways so worker nodes could reach to the Internet. Eggress only for security reasons. (TODO: Check eggress only internet gateways)
 
 Saw workstation-external-ip on the internet. It is used to get workstation's IP address and later create a security group to enable access to the API server from that workstation. (Check aws_security_group_rule.demo-cluster-ingress-workstation-https)
+
+TODO: Check AWS Network ACLs
